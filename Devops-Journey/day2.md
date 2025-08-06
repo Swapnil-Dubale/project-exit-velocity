@@ -38,3 +38,6 @@ sudo journalctl -xeu jenkins.service -> to check jenkins logs
 ubuntu@ip-172-31-36-172:~$ sudo lsof -i :8080  -> check if anything running on port 8080
 ubuntu@ip-172-31-36-172:~$ sudo systemctl restart jenkins
 ubuntu@ip-172-31-36-172:~$ sudo systemctl status jenkins
+
+//----------------------------
+created a jenkins pipeline that pulls a repo from github and execute a shell script from that repo, within the pipeline workspace
